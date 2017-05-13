@@ -4,6 +4,9 @@ const {config: {port : E2E_PORT}} = require('./test/protractor.conf')
 module.exports = {
   scripts: {
     default: 'nps webpack',
+    deploy: {
+      ghpages: 'git subtree push --prefix dist origin gh-pages'
+    },
     test: {
       default: 'nps test.jest',
       jest: {
