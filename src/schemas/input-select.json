@@ -1,0 +1,33 @@
+{
+  "type": "object",
+  "title": "input-select",
+  "properties": {
+    "nextActivity": {
+      "type": "integer"
+    },
+    "question": {
+      "type": "string"
+    }, 
+    "stateProperty": {
+      "type": "string"
+    }, 
+    "options": {
+      "type": "array",
+      "title": "Options",
+      "format": "tabs",
+      "items": {
+        "type": "object",
+        "properties": {
+          "displayName": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "value": {
+          }
+        }
+      }
+    }
+  }
+}

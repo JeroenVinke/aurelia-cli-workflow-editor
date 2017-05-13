@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "title": "state-assign",
+  "properties": {
+    "nextActivity": {
+      "type": "integer"
+    },
+    "state": {
+      "type": "object"
+    }
+  }
+}

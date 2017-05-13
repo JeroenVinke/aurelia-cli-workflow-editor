@@ -1,0 +1,11 @@
+<template>
+	<require from="./app.css"></require>
+	<require from="./diagram"></require>
+	<require from="./editor"></require>
+	<require from="./actions"></require>
+	<require from="toastr/build/toastr.css"></require>
+
+	<actions add-activity.call="diagram.addActivity()"></actions>
+	<diagram on-click.call="graphClicked()" on-dbl-click.call="activityClicked(evt)" view-model.ref="diagram"></diagram>
+	<editor show.bind="selectedActivity" selected-activity.bind="selectedActivity" x.bind="editorX" y.bind="editorY"></editor>
+</template>

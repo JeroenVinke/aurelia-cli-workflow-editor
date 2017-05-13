@@ -1,0 +1,16 @@
+<template>
+  <require from="./json-import.css"></require>
+
+  <ux-dialog class="json-import-dialog">
+    <ux-dialog-body>
+      <h1>Enter the workflow JSON</h1>
+      <textarea value.bind="json">
+
+      </textarea>
+    </ux-dialog-body>
+
+    <ux-dialog-footer>
+      <button click.trigger="ok()">Ok</button>
+    </ux-dialog-footer>
+  </ux-dialog>
+</template>

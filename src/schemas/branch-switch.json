@@ -1,0 +1,25 @@
+{
+  "type": "object",
+  "title": "branch-switch",
+  "properties": {
+    "stateProperty": {
+      "type": "string"
+    }, 
+    "branches": {
+      "type": "array",
+      "title": "Branches",
+      "format": "tabs",
+      "items": {
+        "type": "object",
+        "properties": {
+          "case": {
+            "type": "string"
+          },
+          "nextActivity": {
+            "type": "integer"
+          }
+        }
+      }
+    }
+  }
+}

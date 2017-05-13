@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "title": "project-create",
+  "properties": {
+    "nextActivity": {
+      "type": "integer"
+    },
+    "restartActivity": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+<template>
+  <require from="./json-export.css"></require>
+
+  <ux-dialog class="json-export-dialog">
+    <ux-dialog-body>
+      <h1>JSON:</h1>
+      <textarea value.bind="json">
+
+      </textarea>
+    </ux-dialog-body>
+
+    <ux-dialog-footer>
+      <button click.trigger="ok()">Ok</button>
+    </ux-dialog-footer>
+  </ux-dialog>
+</template>

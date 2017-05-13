@@ -1,0 +1,18 @@
+{
+  "type": "object",
+  "title": "input-text",
+  "properties": {
+    "nextActivity": {
+      "type": "integer"
+    },
+    "question": {
+      "type": "string"
+    },
+    "stateProperty": {
+      "type": "string"
+    },
+    "defaultValue": {
+      "type": "string"
+    }
+  }
+}

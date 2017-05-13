@@ -1,0 +1,11 @@
+editor {
+  position: absolute;
+}
+
+#editor_holder {
+  background-color: #e3e3e3;
+}
+
+select:disabled {
+  background-color: #e3e3e3;
+}
